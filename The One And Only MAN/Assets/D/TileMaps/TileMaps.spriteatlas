@@ -44,33 +44,13 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
+    - {fileID: 2800000, guid: 3f6cc461fd2ac7e44aa5131f705be2e6, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 1903882010, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: 1960999130, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: -878074961, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: -668747294, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: -1319225678, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: -359082118, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: 1272273008, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: 1444235077, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: 1950094863, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  - {fileID: 2061683472, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - Forest Floor TileMap_9
-  - Forest Floor TileMap_8
-  - Forest Floor TileMap_5
-  - Forest Floor TileMap_4
-  - Forest Floor TileMap_7
-  - Forest Floor TileMap_6
-  - Forest Floor TileMap_1
-  - Forest Floor TileMap_0
-  - Forest Floor TileMap_3
-  - Forest Floor TileMap_2
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_RenderDataMap: {}
   m_Tag: TileMaps
   m_IsVariant: 0
