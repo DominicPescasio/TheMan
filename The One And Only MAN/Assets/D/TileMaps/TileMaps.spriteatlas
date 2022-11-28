@@ -72,5 +72,5 @@ SpriteAtlas:
   - Forest Floor TileMap_3
   - Forest Floor TileMap_2
   m_RenderDataMap: {}
-  m_Tag: ForsetFloor
+  m_Tag: TileMaps
   m_IsVariant: 0
