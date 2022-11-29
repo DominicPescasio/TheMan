@@ -19,12 +19,7 @@ public class MMloader : MonoBehaviour
 
     public void Loadgame()
     {
-        SceneManager.LoadScene("Instructions");
-    }
-
-    public void Loadsettings()
-    {
-        SceneManager.LoadScene("Settings");
+        SceneManager.LoadScene("Level1");
     }
 
     public void QuitGame()
