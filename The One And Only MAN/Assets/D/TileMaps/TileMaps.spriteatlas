@@ -45,6 +45,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
+    - {fileID: 2800000, guid: a7513f086baf5aa469dd837bdae9300f, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -60,6 +61,10 @@ SpriteAtlas:
   - {fileID: 1444235077, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
   - {fileID: 1950094863, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
   - {fileID: 2061683472, guid: 05738aa761aabe94aaf6931d0c53cfb9, type: 3}
+  - {fileID: -889492483, guid: a7513f086baf5aa469dd837bdae9300f, type: 3}
+  - {fileID: 2093005183, guid: a7513f086baf5aa469dd837bdae9300f, type: 3}
+  - {fileID: 1322068582, guid: a7513f086baf5aa469dd837bdae9300f, type: 3}
+  - {fileID: 1422820950, guid: a7513f086baf5aa469dd837bdae9300f, type: 3}
   m_PackedSpriteNamesToIndex:
   - Forest Floor TileMap_9
   - Forest Floor TileMap_8
@@ -71,6 +76,10 @@ SpriteAtlas:
   - Forest Floor TileMap_0
   - Forest Floor TileMap_3
   - Forest Floor TileMap_2
+  - oractice ui_0
+  - oractice ui_1
+  - oractice ui_2
+  - oractice ui_3
   m_RenderDataMap: {}
   m_Tag: TileMaps
   m_IsVariant: 0
