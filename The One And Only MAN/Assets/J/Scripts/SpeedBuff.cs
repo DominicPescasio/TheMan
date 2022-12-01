@@ -11,7 +11,5 @@ public class SpeedBuff : PowerUpEffect
     public override void Apply(GameObject target)
     {
         target.GetComponent<PlatformerMove>().moveSpeed += amount;
-        yield return new WaitForSeconds(duration);
-        target.GetComponent<PlatformerMove>().moveSpeed -= amount;
     }
 }
