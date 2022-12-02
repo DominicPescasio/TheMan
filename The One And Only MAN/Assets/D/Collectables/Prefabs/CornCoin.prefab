@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5503552475609910447}
   - component: {fileID: 5503552475609910446}
   m_Layer: 0
-  m_Name: CornCoin_0
+  m_Name: CornCoin
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
