@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformerMove : MonoBehaviour
+public class Player : MonoBehaviour
 {
     // SerializedField is similar to public or smth
     public float moveSpeed = 1;
