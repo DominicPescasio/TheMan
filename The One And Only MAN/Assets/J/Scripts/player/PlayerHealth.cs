@@ -23,8 +23,7 @@ public float moveSpeed = 1;
         rb = GetComponent <Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        slider.maxValue = health;
-        slider.value = health;
+        
     }
 
     // Update is called once per frame

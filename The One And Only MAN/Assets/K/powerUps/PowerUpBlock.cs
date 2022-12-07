@@ -16,6 +16,7 @@ public class PowerUpBlock : MonoBehaviour
         if (!_used && player != null && other.contacts[0].normal.y > 0)
         {
             GetComponent<SpriteRenderer>().sprite = _inactiveSprite;
+            Instantiate(_powerup, transform.position, Quaternion.identity);
         }
     }
 }
