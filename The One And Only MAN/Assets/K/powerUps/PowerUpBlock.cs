@@ -7,7 +7,7 @@ public class PowerUpBlock : MonoBehaviour
     private Sprite _inactiveSprite;
 
     [SerializeField]
-    private GameObject _powerup;
+    private GameObject _powerUp;
 
     private bool _used;
     private void OnCollisionEnter2D(Collision2D other)
@@ -16,7 +16,7 @@ public class PowerUpBlock : MonoBehaviour
         if (!_used && player != null && other.contacts[0].normal.y > 0)
         {
             GetComponent<SpriteRenderer>().sprite = _inactiveSprite;
-            Instantiate(_powerup, transform.position, Quaternion.identity);
+            Instantiate(_powerUp, transform.position, Quaternion.identity);
         }
     }
 }
