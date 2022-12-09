@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5277877706359412436}
   - component: {fileID: 5277877706359412439}
   m_Layer: 6
-  m_Name: PowerUpBlock
+  m_Name: Mushroom
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -643479614, guid: a9f4a8ba56b3942408e6ab19fb8de810, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9811321, g: 0.8995015, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,7 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inactiveSprite: {fileID: 1510653535, guid: a9f4a8ba56b3942408e6ab19fb8de810, type: 3}
-  _powerup: {fileID: 698610721958142609, guid: f7b10cd3e08efe84fa1d1ff651896294, type: 3}
+  _powerUp: {fileID: 0}
+  block: 1
 --- !u!61 &5277877706359412439
 BoxCollider2D:
   m_ObjectHideFlags: 0

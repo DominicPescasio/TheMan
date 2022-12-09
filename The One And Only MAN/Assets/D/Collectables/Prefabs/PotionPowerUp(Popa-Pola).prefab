@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3033448347898365446}
   - component: {fileID: 3033448347898365447}
   - component: {fileID: 3033448347898365440}
-  - component: {fileID: 5075171854464803138}
-  - component: {fileID: 990212002896903726}
+  - component: {fileID: 5612078869029195933}
+  - component: {fileID: 5206939113446240082}
   m_Layer: 0
   m_Name: PotionPowerUp(Popa-Pola)
   m_TagString: Potion
@@ -107,7 +107,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!50 &5075171854464803138
+--- !u!114 &5612078869029195933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3033448347898365441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee34cedb1bd3abe44bb05a13d7d4fc5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _intitialVelocity: {x: 0, y: 7.5}
+  _reenableColliderAfter: 1
+--- !u!50 &5206939113446240082
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -115,7 +129,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3033448347898365441}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -127,26 +141,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!66 &990212002896903726
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3033448347898365441}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths: []
-  m_CompositePaths:
-    m_Paths: []
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
+  m_Constraints: 4
