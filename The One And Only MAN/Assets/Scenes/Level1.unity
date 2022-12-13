@@ -8035,7 +8035,7 @@ GameObject:
   - component: {fileID: 1828764760}
   - component: {fileID: 1828764759}
   m_Layer: 0
-  m_Name: power up blocks_1
+  m_Name: Punching powerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
