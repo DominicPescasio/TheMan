@@ -33,11 +33,28 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
+    - {fileID: 2800000, guid: 9a371afda67c0f446be235002520f03a, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 2013864939, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -2035900138, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 606581443, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1369729465, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 1842948578, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 158301510, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -653735092, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1581082733, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 130461759, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1399607273, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 1591660708, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1658895970, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 473331965, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1824186562, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -740664115, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -839260748, guid: 9a371afda67c0f446be235002520f03a, type: 3}
   - {fileID: 393333556, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
   - {fileID: -1107112913, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
   - {fileID: 884048830, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
@@ -45,6 +62,22 @@ SpriteAtlas:
   - {fileID: -454457729, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
   - {fileID: -382350355, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
   m_PackedSpriteNamesToIndex:
+  - FloatingSampleDesertTileMap_7
+  - FloatingSampleDesertTileMap_6
+  - FloatingSampleDesertTileMap_5
+  - FloatingSampleDesertTileMap_4
+  - FloatingSampleDesertTileMap_3
+  - FloatingSampleDesertTileMap_2
+  - FloatingSampleDesertTileMap_1
+  - FloatingSampleDesertTileMap_0
+  - FloatingSampleDesertTileMap_12
+  - FloatingSampleDesertTileMap_13
+  - FloatingSampleDesertTileMap_10
+  - FloatingSampleDesertTileMap_11
+  - FloatingSampleDesertTileMap_14
+  - FloatingSampleDesertTileMap_9
+  - FloatingSampleDesertTileMap_15
+  - FloatingSampleDesertTileMap_8
   - dessert Backround_1
   - dessert Backround_0
   - dessert Backround_3
