@@ -46,7 +46,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
     public void QuitGame()
     {
