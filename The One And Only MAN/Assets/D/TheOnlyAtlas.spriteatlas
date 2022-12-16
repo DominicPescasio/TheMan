@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TileMaps
+  m_Name: TheOnlyAtlas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -48,6 +48,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
     - {fileID: 2800000, guid: 9ca7baea4a05d884294673fa341aca1d, type: 3}
     - {fileID: 2800000, guid: f73b2f34fdf84394e988ff4896ae370f, type: 3}
+    - {fileID: 2800000, guid: 9a371afda67c0f446be235002520f03a, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -96,6 +97,22 @@ SpriteAtlas:
   - {fileID: 787111058, guid: 9ca7baea4a05d884294673fa341aca1d, type: 3}
   - {fileID: -1845047310, guid: 9ca7baea4a05d884294673fa341aca1d, type: 3}
   - {fileID: -1225871329, guid: 9ca7baea4a05d884294673fa341aca1d, type: 3}
+  - {fileID: 2013864939, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -2035900138, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 606581443, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1369729465, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 1842948578, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 158301510, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -653735092, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1581082733, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 130461759, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1399607273, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 1591660708, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1658895970, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: 473331965, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -1824186562, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -740664115, guid: 9a371afda67c0f446be235002520f03a, type: 3}
+  - {fileID: -839260748, guid: 9a371afda67c0f446be235002520f03a, type: 3}
   - {fileID: 393333556, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
   - {fileID: -1107112913, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
   - {fileID: 884048830, guid: 583e7afec3dee23439ecaa2b2bd31ca6, type: 3}
@@ -146,6 +163,22 @@ SpriteAtlas:
   - Forest_10
   - Forest_11
   - Forest_12
+  - FloatingSampleDesertTileMap_7
+  - FloatingSampleDesertTileMap_6
+  - FloatingSampleDesertTileMap_5
+  - FloatingSampleDesertTileMap_4
+  - FloatingSampleDesertTileMap_3
+  - FloatingSampleDesertTileMap_2
+  - FloatingSampleDesertTileMap_1
+  - FloatingSampleDesertTileMap_0
+  - FloatingSampleDesertTileMap_12
+  - FloatingSampleDesertTileMap_13
+  - FloatingSampleDesertTileMap_10
+  - FloatingSampleDesertTileMap_11
+  - FloatingSampleDesertTileMap_14
+  - FloatingSampleDesertTileMap_9
+  - FloatingSampleDesertTileMap_15
+  - FloatingSampleDesertTileMap_8
   - dessert Backround_1
   - dessert Backround_0
   - dessert Backround_3
@@ -153,5 +186,5 @@ SpriteAtlas:
   - dessert Backround_5
   - dessert Backround_4
   m_RenderDataMap: {}
-  m_Tag: TileMaps
+  m_Tag: TheOnlyAtlas
   m_IsVariant: 0
