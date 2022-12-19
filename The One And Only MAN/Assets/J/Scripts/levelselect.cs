@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class levelselect : MonoBehaviour
 {
-    public Button level02Button, level03Button, level04Button, level05Button;
+    public Button  level02Button, level03Button, level04Button, level05Button;
     int levelPassed;
     // Start is called before the first frame update
     void Start()
@@ -74,8 +74,8 @@ public class levelselect : MonoBehaviour
         SceneManager.LoadScene("Level4");
     }
 
-    public void loadFinalLevel()
+    public void loadlevel5()
     {
-        SceneManager.LoadScene("FinalLevel");
+        SceneManager.LoadScene("Level5");
     }
 }
