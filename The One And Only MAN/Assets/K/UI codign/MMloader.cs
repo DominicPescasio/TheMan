@@ -19,6 +19,7 @@ public class MMloader : MonoBehaviour
 
     public void Loadgame()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Level1");
     }
 
