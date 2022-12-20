@@ -20,7 +20,7 @@ public class WinLevelscript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (sceneIndex == 5)
+        if (sceneIndex == 3)
         {
             SceneManager.LoadScene("WinScreen");
         }
