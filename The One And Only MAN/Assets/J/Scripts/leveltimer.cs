@@ -8,7 +8,7 @@ public class leveltimer : MonoBehaviour
 {
     public float startingTime;
 
-    public TextMeshProUGUI healthText;
+    public TextMeshProUGUI TimeText;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +20,7 @@ public class leveltimer : MonoBehaviour
     {
         startingTime -= Time.deltaTime;
 
-        healthText.text = "" + Mathf.Round(startingTime);
+        TimeText.text = "" + Mathf.Round(startingTime);
 
         if (startingTime <= 0)
         {
