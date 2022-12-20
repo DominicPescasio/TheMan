@@ -24,8 +24,7 @@ public class deathbarrrrr : MonoBehaviour
     {
         if (this.transform.position.y < this.deathBarrier)
         {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
