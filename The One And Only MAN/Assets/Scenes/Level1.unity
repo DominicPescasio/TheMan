@@ -9014,6 +9014,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7988023833439247992, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
   m_PrefabInstance: {fileID: 7988023834465073041}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1160624562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160624561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdb645873c9f5342907845e59e88591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathBarrier: -10
+  startPosition: {x: 0, y: 0.5, z: 0}
 --- !u!1001 &1246379936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9728,6 +9742,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4613292134444514744, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
+      propertyPath: deathBarrier
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 7988023833439247971, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
       propertyPath: jumpSpeed
       value: 5
@@ -9754,11 +9772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7988023833439247999, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8
+      value: 196
       objectReference: {fileID: 0}
     - target: {fileID: 7988023833439247999, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 7988023833439247999, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
       propertyPath: m_LocalPosition.z
