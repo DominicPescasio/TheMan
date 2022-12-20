@@ -5,10 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "PowerUps/HealthBuff")]
 public class HealthBuff : PowerUpEffect
 {
-    public int amount;
+    public int amount = 1;
 
     public override void Apply(GameObject target)
     {
-        target.GetComponent<PlayerHealth>().health += amount;
+        target.GetComponent<playerHealthUI>().health += amount;
     }
 }

@@ -8556,6 +8556,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathBarrier: -10
   startPosition: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1160624563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160624561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735e6070918dc3d46b09a858623d8f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3678466214629112039, guid: 4291b4daf6efcb24b804b49ccca8f50d, type: 3}
+  Bulletspeed: 5
+  BulletLifetime: 2
+  shootSound: {fileID: 0}
 --- !u!1001 &1246379936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9408,5 +9424,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4613292134444514744, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 661c0f9f81cca0547a76eeb40e09fc00, type: 3}
