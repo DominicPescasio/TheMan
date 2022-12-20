@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerMovements : MonoBehaviour
 {
     // SerializedField is similar to public or smth
     public float moveSpeed = 1;

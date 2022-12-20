@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51e379e372c04f2469d8d6ab3da0440a, type: 3}
-  m_Name: +5speed
+  m_Script: {fileID: 11500000, guid: e0f32f24e6881a54590ff2845189afa5, type: 3}
+  m_Name: ya
   m_EditorClassIdentifier: 
-  amount: 5
+  amount: 20
