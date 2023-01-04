@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5612078869029195933}
   - component: {fileID: 5206939113446240082}
   - component: {fileID: 3925922206931412844}
+  - component: {fileID: 1490989102237297635}
   m_Layer: 0
   m_Name: PotionPowerUp(Popa-Pola)
   m_TagString: Potion
@@ -169,3 +170,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4706274, y: 1.8174577}
   m_EdgeRadius: 0
+--- !u!114 &1490989102237297635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3033448347898365441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ac3e74bd238684dbef65dcc43fdca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerupEffect: {fileID: 11400000, guid: 7c0a2563ee14f794699dc378e53dec90, type: 2}

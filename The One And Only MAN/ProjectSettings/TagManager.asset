@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - Armor
   - Potion
+  - Damage
   layers:
   - Default
   - TransparentFX
