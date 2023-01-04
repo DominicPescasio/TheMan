@@ -27,7 +27,7 @@ public class PowerUpSurprise : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        var player = other.collider.GetComponent<Player>();
+        var player = other.collider.GetComponent<PlayerMovements>();
         if (player != null)
         {
             Destroy(gameObject);

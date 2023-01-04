@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "PowerUps/HealthBuff")]
 public class HealthBuff : PowerUpEffect
 {
-    public int amount = 1;
+    public int amount = 0;
 
     public override void Apply(GameObject target)
     {

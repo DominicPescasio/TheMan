@@ -16,7 +16,7 @@ public class PowerUpBlock : MonoBehaviour
     private bool _used;
     private void OnCollisionEnter2D(Collision2D other)
     {
-        var player = other.collider.GetComponent<Player>();
+        var player = other.collider.GetComponent<PlayerMovements>();
         if (!_used && player != null && other.contacts[0].normal.y > 0)
         {
             GetComponent<SpriteRenderer>().sprite = _inactiveSprite;
