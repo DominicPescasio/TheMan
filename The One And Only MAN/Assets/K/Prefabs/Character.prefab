@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7988023832771607484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 7988023833391632562}
   - component: {fileID: 7988023833391632563}
   - component: {fileID: 7988023833391632560}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -130,9 +130,9 @@ GameObject:
   - component: {fileID: 7988023833439247994}
   - component: {fileID: 7988023833439247971}
   - component: {fileID: 7988023833439247969}
-  - component: {fileID: 7988023833439247968}
   - component: {fileID: 4613292134444514744}
-  m_Layer: 6
+  - component: {fileID: 865500465}
+  m_Layer: 8
   m_Name: Character
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -305,22 +305,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7988023833439247968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7988023833439247992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b10a8ee4b80629e469b5d6758162793e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpSpeed: 5
-  health: 1
-  slider: {fileID: 0}
 --- !u!114 &4613292134444514744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,3 +319,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathBarrier: -30
   startPosition: {x: 0, y: 0.5, z: 0}
+--- !u!114 &865500465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7988023833439247992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881202da8b2cbfe49ae88a9ae55d6096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  healthText: {fileID: 0}
