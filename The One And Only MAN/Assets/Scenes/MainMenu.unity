@@ -311,7 +311,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'PS: find the exit level coin before the timer is up'
+  m_Text: 'Hint: find the HIDDEN BLOCK before the timer is up'
 --- !u!222 &119036593
 CanvasRenderer:
   m_ObjectHideFlags: 0
