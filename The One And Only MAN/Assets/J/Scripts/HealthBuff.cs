@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "PowerUps/HealthBuff")]
-public class HealthBuff : PowerUpEffect
+public class HealthBuff : PowerUpEffects
 {
     public int amount = 0;
 

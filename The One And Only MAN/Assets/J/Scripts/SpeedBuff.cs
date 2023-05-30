@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "PowerUps/SpeedBuff")]
-public class SpeedBuff : PowerUpEffect
+public class SpeedBuff : PowerUpEffects
 {
     public float amount = 0;
 

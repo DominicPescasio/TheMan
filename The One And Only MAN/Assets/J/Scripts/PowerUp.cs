@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    public PowerUpEffect powerupEffect;
+    public PowerUpEffects powerupEffect;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         string otherTag = collision.gameObject.tag;
